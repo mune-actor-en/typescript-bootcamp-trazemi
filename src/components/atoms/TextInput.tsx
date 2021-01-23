@@ -1,8 +1,8 @@
-import React, {ChangeEvent, FC } from 'react';
+import {ChangeEvent, FC } from 'react';
 import styles from 'styles/atoms/form.module.scss';
 
 interface Props {
-  onChange: (event: ChangeEvent<HTML.InputElement>) => void
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void
   value: string | number
   type: string
 }
