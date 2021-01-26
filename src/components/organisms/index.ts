@@ -1,1 +1,1 @@
-export { default as SearchField} from ''
+export { default as SearchField} from './SearchField'

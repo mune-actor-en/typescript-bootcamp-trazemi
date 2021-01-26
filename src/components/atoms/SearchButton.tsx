@@ -5,9 +5,11 @@ interface Props {
   label: string
   onClick: () => void
 }
-const SearchButton: FC<Props> = ({label, onClick}) => {
+const SearchButton: FC<Props> = (props) => {
   // 分割代入
-  const { label, onClick } = props
+  const {
+    label, onClick
+  } = props
 
   return (
     <button

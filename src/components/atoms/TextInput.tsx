@@ -6,7 +6,7 @@ interface Props {
   value: string | number
   type: string
 }
-const TextInput: FC<Props> = () => {
+const TextInput: FC<Props> = (props) => {
   // 分割代入する
   const {
     onChange,
