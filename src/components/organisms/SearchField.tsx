@@ -1,4 +1,4 @@
-import React, { FC, useState, useCallback, ChangeEvent} from 'react';
+import React, { FC, useState } from 'react';
 import styles from 'styles/utility/flex.module.scss';
 import { SearchButton, TextInput } from 'components/atoms';
 import { useStringChangeEvent } from 'lib/customHooks';

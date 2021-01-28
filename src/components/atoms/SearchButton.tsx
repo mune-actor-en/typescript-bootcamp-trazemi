@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import styles from 'styles/atoms/form.module.scss';
+import styles from 'styles/atoms/button.module.scss';
 
 interface Props {
   label: string

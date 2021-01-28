@@ -14,7 +14,7 @@ const TextInput: FC<Props> = (props) => {
     type
   } = props
   return (
-    <input className={styles.from__text}
+    <input className={styles.form__text}
       onChange={(e) => onChange(e)}
       value={value}
       type={type}
