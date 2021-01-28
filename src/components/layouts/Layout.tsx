@@ -1,6 +1,6 @@
 import classes from '*.module.css';
 import React, { FC } from 'react';
-import styles from 'styles/layouts/layiut.module.scss';
+import styles from 'styles/layouts/layout.module.scss';
 
 const Layout: FC = ({ children }) => {
   return (
