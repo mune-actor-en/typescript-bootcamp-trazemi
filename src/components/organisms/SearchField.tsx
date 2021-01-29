@@ -13,7 +13,7 @@ const SearchField: FC = () => {
   return(
     <div className={styles.flex__row_center}>
       <TextInput
-        onChange={() => null}
+        onChange={handleKeyword}
         type={"text"}
         value={keyword}
       />
@@ -21,7 +21,6 @@ const SearchField: FC = () => {
         label={"Search"}
         onClick={() =>searchHotels(keyword)}
       />
-
     </div >
   )
 }
